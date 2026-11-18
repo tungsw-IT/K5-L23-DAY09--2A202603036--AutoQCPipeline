@@ -40,5 +40,116 @@ from ..model_cache import get_preds  # noqa: F401
 
 
 def run(ds, cfg, preds=None):
-    # TODO
-    raise NotImplementedError("check second_opinion chưa làm")
+    settings = cfg["second_opinion"]
+    min_overlap = settings["iou_missing"]
+    issues = []
+
+    if preds is None:
+        preds = get_preds(ds, cfg, "checker")
+
+    def warn(code, stem, message, line=None, **extra):
+        issues.append(
+            Issue(
+                check="second_opinion",
+                severity=WARN,
+                code=code,
+                image=stem,
+                message=message,
+                line=line,
+                extra=extra,
+            )
+        )
+
+    for image_path in ds.image_files():
+        stem = image_path.stem
+        if stem not in preds:
+            continue
+
+        label_lines = ds.read_label_lines(stem)
+        if label_lines is None:
+            continue
+
+        labels = []
+        for line_number, text in label_lines:
+            try:
+                class_id, cx, cy, width, height = parse_yolo_line(text)
+            except (ValueError, OverflowError):
+                continue
+
+            if 0 <= class_id < len(ds.classes):
+                labels.append((line_number, class_id, (cx, cy, width, height)))
+
+        image_predictions = preds[stem]
+        image_size = ds.image_size(stem)
+
+        # So từng dự đoán đủ tin cậy và đủ lớn với các nhãn.
+        if image_size is not None:
+            image_width, image_height = image_size
+
+            for class_id, confidence, cx, cy, width, height in image_predictions:
+                area_px = (width * image_width) * (height * image_height)
+                if (
+                    confidence < settings["conf"]
+                    or area_px < settings["min_area_px"]
+                ):
+                    continue
+
+                prediction_box = (cx, cy, width, height)
+                candidates = []
+                for _, label_class, label_box in labels:
+                    overlap = iou_xywh(prediction_box, label_box)
+                    if overlap >= min_overlap:
+                        candidates.append((label_class, overlap))
+
+                if not candidates:
+                    warn(
+                        "POSSIBLE_MISSING", stem,
+                        f"Có thể thiếu khung cho lớp {class_id}",
+                        conf=confidence,
+                    )
+                    continue
+
+                same_class = [
+                    overlap
+                    for label_class, overlap in candidates
+                    if label_class == class_id
+                ]
+
+                if same_class:
+                    best_overlap = max(same_class)
+                    if best_overlap < settings["iou_loose"]:
+                        warn(
+                            "POSSIBLE_LOOSE_BOX", stem,
+                            "Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng",
+                            conf=confidence, iou=best_overlap,
+                        )
+                    continue
+
+                best_overlap = max(overlap for _, overlap in candidates)
+                if best_overlap >= settings["iou_match"]:
+                    warn(
+                        "POSSIBLE_WRONG_CLASS", stem,
+                        f"Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp {class_id}",
+                        conf=confidence, iou=best_overlap,
+                    )
+
+        # Kiểm tra chiều ngược lại: nhãn nào không khớp với dự đoán?
+        reference_boxes = [
+            (cx, cy, width, height)
+            for _, confidence, cx, cy, width, height in image_predictions
+            if confidence >= settings["fp_conf"]
+        ]
+
+        for line_number, _, label_box in labels:
+            best_overlap = max(
+                (iou_xywh(label_box, box) for box in reference_boxes),
+                default=0.0,
+            )
+            if not reference_boxes or best_overlap < min_overlap:
+                warn(
+                    "POSSIBLE_FALSE_POS", stem,
+                    "Khung nhãn có thể là khung thừa",
+                    line=line_number, iou=best_overlap,
+                )
+
+    return issues
