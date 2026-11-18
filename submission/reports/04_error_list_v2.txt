@@ -1,0 +1,167 @@
+# Danh sách lỗi — SAU sửa tự động (v2)
+ảnh đã quét: 193
+
+label_format -> 10 dòng
+missing_labels -> 20 dòng
+second_opinion -> 120 dòng
+
+[ERROR] MISSING_LABEL_FILE   img_0031  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0053  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0126  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0135  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0170  ảnh không có file nhãn
+[ERROR] MISSING_LABEL_FILE   img_0219  ảnh không có file nhãn
+[WARN ] BOX_HUGE             img_0018.txt:1  Diện tích khung chiếm 97.0% diện tích ảnh
+[WARN ] BOX_HUGE             img_0128.txt:1  Diện tích khung chiếm 98.8% diện tích ảnh
+[WARN ] BOX_HUGE             img_0196.txt:1  Diện tích khung chiếm 98.4% diện tích ảnh
+[WARN ] BOX_TINY             img_0026.txt:6  Cạnh ngắn của khung chỉ có 11.4 px
+[WARN ] BOX_TINY             img_0030.txt:9  Cạnh ngắn của khung chỉ có 9.8 px
+[WARN ] BOX_TINY             img_0051.txt:5  Cạnh ngắn của khung chỉ có 8.9 px
+[WARN ] BOX_TINY             img_0069.txt:2  Cạnh ngắn của khung chỉ có 11.2 px
+[WARN ] BOX_TINY             img_0161.txt:2  Cạnh ngắn của khung chỉ có 10.3 px
+[WARN ] BOX_TINY             img_0161.txt:3  Cạnh ngắn của khung chỉ có 11.4 px
+[WARN ] BOX_TINY             img_0161.txt:4  Cạnh ngắn của khung chỉ có 11.9 px
+[WARN ] EMPTY_LABEL          img_0004  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0050  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0057  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0065  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0097  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0103  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0104  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0129  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0147  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0157  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0178  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0184  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0192  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0194  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] POSSIBLE_FALSE_POS   img_0024.txt:7  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0030.txt:9  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0035.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0068.txt:7  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0069.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0070.txt:6  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0078.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0091.txt:7  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0092.txt:9  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0095.txt:6  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0099.txt:14  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0100.txt:4  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0111.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0144.txt:1  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0149.txt:3  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0150.txt:3  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0155.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0155.txt:3  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0180.txt:5  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0189.txt:4  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0193.txt:6  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0204.txt:1  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0206.txt:1  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_LOOSE_BOX   img_0015  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0018  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0036  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0045  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0046  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0054  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0062  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0062  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0064  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0077  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0082  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0090  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0094  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0096  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0119  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0125  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0127  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0127  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0131  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0142  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0171  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0171  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0175  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0179  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0200  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0217  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0217  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_MISSING     img_0001  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0004  Có thể thiếu khung cho lớp 0
+[WARN ] POSSIBLE_MISSING     img_0004  Có thể thiếu khung cho lớp 0
+[WARN ] POSSIBLE_MISSING     img_0012  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0014  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0020  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0022  Có thể thiếu khung cho lớp 0
+[WARN ] POSSIBLE_MISSING     img_0028  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0030  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0032  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0047  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0050  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0057  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0058  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0065  Có thể thiếu khung cho lớp 3
+[WARN ] POSSIBLE_MISSING     img_0066  Có thể thiếu khung cho lớp 3
+[WARN ] POSSIBLE_MISSING     img_0067  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0068  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0078  Có thể thiếu khung cho lớp 0
+[WARN ] POSSIBLE_MISSING     img_0086  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0092  Có thể thiếu khung cho lớp 0
+[WARN ] POSSIBLE_MISSING     img_0093  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0096  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0099  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0100  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0103  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0104  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0116  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0117  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0121  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0127  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0131  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0134  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0144  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0145  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0147  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0151  Có thể thiếu khung cho lớp 3
+[WARN ] POSSIBLE_MISSING     img_0157  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0159  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0160  Có thể thiếu khung cho lớp 2
+[WARN ] POSSIBLE_MISSING     img_0164  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0165  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0178  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0184  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0187  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0194  Có thể thiếu khung cho lớp 0
+[WARN ] POSSIBLE_MISSING     img_0199  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0204  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0210  Có thể thiếu khung cho lớp 0
+[WARN ] POSSIBLE_MISSING     img_0211  Có thể thiếu khung cho lớp 0
+[WARN ] POSSIBLE_MISSING     img_0215  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0218  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0220  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0019  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0
+[WARN ] POSSIBLE_WRONG_CLASS img_0020  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 3
+[WARN ] POSSIBLE_WRONG_CLASS img_0034  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0037  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0
+[WARN ] POSSIBLE_WRONG_CLASS img_0070  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0071  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0075  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0083  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0
+[WARN ] POSSIBLE_WRONG_CLASS img_0112  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0124  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0
+[WARN ] POSSIBLE_WRONG_CLASS img_0160  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 2
+[WARN ] POSSIBLE_WRONG_CLASS img_0183  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0185  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0191  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0202  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0208  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0212  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1
+
+## Tổng hợp theo mã
+error MISSING_LABEL_FILE     6
+warn  BOX_HUGE               3
+warn  BOX_TINY               7
+warn  EMPTY_LABEL            14
+warn  POSSIBLE_FALSE_POS     23
+warn  POSSIBLE_LOOSE_BOX     27
+warn  POSSIBLE_MISSING       53
+warn  POSSIBLE_WRONG_CLASS   17

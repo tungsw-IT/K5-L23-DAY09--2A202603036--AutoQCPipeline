@@ -1,0 +1,151 @@
+check,severity,code,image,line,message,extra
+missing_labels,error,MISSING_LABEL_FILE,img_0031,,ảnh không có file nhãn,
+missing_labels,error,MISSING_LABEL_FILE,img_0053,,ảnh không có file nhãn,
+missing_labels,error,MISSING_LABEL_FILE,img_0126,,ảnh không có file nhãn,
+missing_labels,error,MISSING_LABEL_FILE,img_0135,,ảnh không có file nhãn,
+missing_labels,error,MISSING_LABEL_FILE,img_0170,,ảnh không có file nhãn,
+missing_labels,error,MISSING_LABEL_FILE,img_0219,,ảnh không có file nhãn,
+missing_labels,warn,EMPTY_LABEL,img_0004,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0050,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0057,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0065,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0097,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0103,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0104,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0129,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0147,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0157,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0178,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0184,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0192,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+missing_labels,warn,EMPTY_LABEL,img_0194,,file nhãn rỗng: ảnh nền hay thiếu nhãn?,
+label_format,warn,BOX_HUGE,img_0018,1,Diện tích khung chiếm 97.0% diện tích ảnh,
+label_format,warn,BOX_TINY,img_0026,6,Cạnh ngắn của khung chỉ có 11.4 px,
+label_format,warn,BOX_TINY,img_0030,9,Cạnh ngắn của khung chỉ có 9.8 px,
+label_format,warn,BOX_TINY,img_0051,5,Cạnh ngắn của khung chỉ có 8.9 px,
+label_format,warn,BOX_TINY,img_0069,2,Cạnh ngắn của khung chỉ có 11.2 px,
+label_format,warn,BOX_HUGE,img_0128,1,Diện tích khung chiếm 98.8% diện tích ảnh,
+label_format,warn,BOX_TINY,img_0161,2,Cạnh ngắn của khung chỉ có 10.3 px,
+label_format,warn,BOX_TINY,img_0161,3,Cạnh ngắn của khung chỉ có 11.4 px,
+label_format,warn,BOX_TINY,img_0161,4,Cạnh ngắn của khung chỉ có 11.9 px,
+label_format,warn,BOX_HUGE,img_0196,1,Diện tích khung chiếm 98.4% diện tích ảnh,
+second_opinion,warn,POSSIBLE_MISSING,img_0001,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9458}"
+second_opinion,warn,POSSIBLE_MISSING,img_0004,,Có thể thiếu khung cho lớp 0,"{""conf"": 0.8897}"
+second_opinion,warn,POSSIBLE_MISSING,img_0004,,Có thể thiếu khung cho lớp 0,"{""conf"": 0.789}"
+second_opinion,warn,POSSIBLE_MISSING,img_0012,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.6714}"
+second_opinion,warn,POSSIBLE_MISSING,img_0014,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8469}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0015,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.8941, ""iou"": 0.3434455934432383}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0018,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.7195, ""iou"": 0.4470426447819693}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0019,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0,"{""conf"": 0.941, ""iou"": 0.9876238437642442}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0020,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 3,"{""conf"": 0.9474, ""iou"": 0.9433212534931074}"
+second_opinion,warn,POSSIBLE_MISSING,img_0020,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8408}"
+second_opinion,warn,POSSIBLE_MISSING,img_0022,,Có thể thiếu khung cho lớp 0,"{""conf"": 0.8483}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0024,7,Khung nhãn có thể là khung thừa,"{""iou"": 0.09720377024295698}"
+second_opinion,warn,POSSIBLE_MISSING,img_0028,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9406}"
+second_opinion,warn,POSSIBLE_MISSING,img_0030,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.686}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0030,9,Khung nhãn có thể là khung thừa,"{""iou"": 0.13199108917306018}"
+second_opinion,warn,POSSIBLE_MISSING,img_0032,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.608}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0034,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.9066, ""iou"": 0.8922417088993325}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0035,2,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0036,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.8733, ""iou"": 0.42652477076992373}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0037,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0,"{""conf"": 0.9134, ""iou"": 0.9686454400251667}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0045,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.7519, ""iou"": 0.33476178349319957}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0046,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.8928, ""iou"": 0.3823233906495968}"
+second_opinion,warn,POSSIBLE_MISSING,img_0047,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.717}"
+second_opinion,warn,POSSIBLE_MISSING,img_0050,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.929}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0054,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.7403, ""iou"": 0.37880261832775625}"
+second_opinion,warn,POSSIBLE_MISSING,img_0057,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8893}"
+second_opinion,warn,POSSIBLE_MISSING,img_0058,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.7285}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0062,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.8051, ""iou"": 0.4710198159663405}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0062,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.6374, ""iou"": 0.35188320151554736}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0064,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.9147, ""iou"": 0.45010497657783627}"
+second_opinion,warn,POSSIBLE_MISSING,img_0065,,Có thể thiếu khung cho lớp 3,"{""conf"": 0.9413}"
+second_opinion,warn,POSSIBLE_MISSING,img_0066,,Có thể thiếu khung cho lớp 3,"{""conf"": 0.9463}"
+second_opinion,warn,POSSIBLE_MISSING,img_0067,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8354}"
+second_opinion,warn,POSSIBLE_MISSING,img_0068,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8851}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0068,7,Khung nhãn có thể là khung thừa,"{""iou"": 0.21545919793778642}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0069,2,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0070,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.9484, ""iou"": 0.987342362600333}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0070,6,Khung nhãn có thể là khung thừa,"{""iou"": 0.09879202754359934}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0071,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.925, ""iou"": 0.9876598719924807}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0075,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.9144, ""iou"": 0.9706424864485889}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0077,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.7352, ""iou"": 0.4016279290671218}"
+second_opinion,warn,POSSIBLE_MISSING,img_0078,,Có thể thiếu khung cho lớp 0,"{""conf"": 0.8527}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0078,2,Khung nhãn có thể là khung thừa,"{""iou"": 0.10681919071908795}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0082,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.8085, ""iou"": 0.4834327463044831}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0083,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0,"{""conf"": 0.6948, ""iou"": 0.9475003856805791}"
+second_opinion,warn,POSSIBLE_MISSING,img_0086,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.884}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0090,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.7153, ""iou"": 0.4628350771458936}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0091,7,Khung nhãn có thể là khung thừa,"{""iou"": 0.25691703662875975}"
+second_opinion,warn,POSSIBLE_MISSING,img_0092,,Có thể thiếu khung cho lớp 0,"{""conf"": 0.9069}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0092,9,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_MISSING,img_0093,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.7063}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0094,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.7281, ""iou"": 0.3939070894040368}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0095,6,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0096,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.9178, ""iou"": 0.46865963956827933}"
+second_opinion,warn,POSSIBLE_MISSING,img_0096,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8585}"
+second_opinion,warn,POSSIBLE_MISSING,img_0099,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8766}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0099,14,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_MISSING,img_0100,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.6243}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0100,4,Khung nhãn có thể là khung thừa,"{""iou"": 0.03467085612461127}"
+second_opinion,warn,POSSIBLE_MISSING,img_0103,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9246}"
+second_opinion,warn,POSSIBLE_MISSING,img_0104,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9298}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0111,2,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0112,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.793, ""iou"": 0.9272315143510558}"
+second_opinion,warn,POSSIBLE_MISSING,img_0116,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.7946}"
+second_opinion,warn,POSSIBLE_MISSING,img_0117,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.6739}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0119,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.706, ""iou"": 0.40835910199990577}"
+second_opinion,warn,POSSIBLE_MISSING,img_0121,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.7641}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0124,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0,"{""conf"": 0.9281, ""iou"": 0.9668866043807952}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0125,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.8328, ""iou"": 0.42099341975298876}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0127,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.8845, ""iou"": 0.4371643526339286}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0127,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.7047, ""iou"": 0.376903504942473}"
+second_opinion,warn,POSSIBLE_MISSING,img_0127,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.6843}"
+second_opinion,warn,POSSIBLE_MISSING,img_0131,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8922}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0131,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.6577, ""iou"": 0.3331717308000165}"
+second_opinion,warn,POSSIBLE_MISSING,img_0134,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.6804}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0142,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.658, ""iou"": 0.42779459598869807}"
+second_opinion,warn,POSSIBLE_MISSING,img_0144,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9637}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0144,1,Khung nhãn có thể là khung thừa,"{""iou"": 0.28373602655777636}"
+second_opinion,warn,POSSIBLE_MISSING,img_0145,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9382}"
+second_opinion,warn,POSSIBLE_MISSING,img_0147,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.7842}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0149,3,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0150,3,Khung nhãn có thể là khung thừa,"{""iou"": 0.23162072486516988}"
+second_opinion,warn,POSSIBLE_MISSING,img_0151,,Có thể thiếu khung cho lớp 3,"{""conf"": 0.7252}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0155,2,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0155,3,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_MISSING,img_0157,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8965}"
+second_opinion,warn,POSSIBLE_MISSING,img_0159,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9289}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0160,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 2,"{""conf"": 0.7778, ""iou"": 0.950587895231265}"
+second_opinion,warn,POSSIBLE_MISSING,img_0160,,Có thể thiếu khung cho lớp 2,"{""conf"": 0.7768}"
+second_opinion,warn,POSSIBLE_MISSING,img_0164,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.7829}"
+second_opinion,warn,POSSIBLE_MISSING,img_0165,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8218}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0171,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.7292, ""iou"": 0.4269310771759664}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0171,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.6386, ""iou"": 0.3299088670356399}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0175,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.8997, ""iou"": 0.4215077681105207}"
+second_opinion,warn,POSSIBLE_MISSING,img_0178,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9324}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0179,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.753, ""iou"": 0.36607977137319275}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0180,5,Khung nhãn có thể là khung thừa,"{""iou"": 0.0}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0183,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.9078, ""iou"": 0.9351925182013927}"
+second_opinion,warn,POSSIBLE_MISSING,img_0184,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.7909}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0185,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.6802, ""iou"": 0.9024438107558065}"
+second_opinion,warn,POSSIBLE_MISSING,img_0187,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9328}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0189,4,Khung nhãn có thể là khung thừa,"{""iou"": 0.00916243131024922}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0191,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.908, ""iou"": 0.9475916986917163}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0193,6,Khung nhãn có thể là khung thừa,"{""iou"": 0.016998858406802764}"
+second_opinion,warn,POSSIBLE_MISSING,img_0194,,Có thể thiếu khung cho lớp 0,"{""conf"": 0.602}"
+second_opinion,warn,POSSIBLE_MISSING,img_0199,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8316}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0200,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.6911, ""iou"": 0.43446286020480024}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0202,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.944, ""iou"": 0.9893647523120435}"
+second_opinion,warn,POSSIBLE_MISSING,img_0204,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9149}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0204,1,Khung nhãn có thể là khung thừa,"{""iou"": 0.12905934982369938}"
+second_opinion,warn,POSSIBLE_FALSE_POS,img_0206,1,Khung nhãn có thể là khung thừa,"{""iou"": 0.10827808564215993}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0208,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.9221, ""iou"": 0.9385697990009533}"
+second_opinion,warn,POSSIBLE_MISSING,img_0210,,Có thể thiếu khung cho lớp 0,"{""conf"": 0.6665}"
+second_opinion,warn,POSSIBLE_MISSING,img_0211,,Có thể thiếu khung cho lớp 0,"{""conf"": 0.7464}"
+second_opinion,warn,POSSIBLE_WRONG_CLASS,img_0212,,Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 1,"{""conf"": 0.8384, ""iou"": 0.7675689028874688}"
+second_opinion,warn,POSSIBLE_MISSING,img_0215,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.9357}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0217,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.9453, ""iou"": 0.34195420416882055}"
+second_opinion,warn,POSSIBLE_LOOSE_BOX,img_0217,,Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng,"{""conf"": 0.6679, ""iou"": 0.3575239832937389}"
+second_opinion,warn,POSSIBLE_MISSING,img_0218,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8369}"
+second_opinion,warn,POSSIBLE_MISSING,img_0220,,Có thể thiếu khung cho lớp 1,"{""conf"": 0.8191}"

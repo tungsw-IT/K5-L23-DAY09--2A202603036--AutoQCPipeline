@@ -1,0 +1,84 @@
+# Danh sách lỗi — SAU người duyệt (v3)
+ảnh đã quét: 193
+
+label_format -> 10 dòng
+missing_labels -> 3 dòng
+second_opinion -> 53 dòng
+
+[WARN ] BOX_HUGE             img_0018.txt:1  Diện tích khung chiếm 97.0% diện tích ảnh
+[WARN ] BOX_HUGE             img_0128.txt:1  Diện tích khung chiếm 98.8% diện tích ảnh
+[WARN ] BOX_HUGE             img_0196.txt:1  Diện tích khung chiếm 98.4% diện tích ảnh
+[WARN ] BOX_TINY             img_0026.txt:6  Cạnh ngắn của khung chỉ có 11.4 px
+[WARN ] BOX_TINY             img_0051.txt:5  Cạnh ngắn của khung chỉ có 8.9 px
+[WARN ] BOX_TINY             img_0069.txt:2  Cạnh ngắn của khung chỉ có 11.2 px
+[WARN ] BOX_TINY             img_0161.txt:2  Cạnh ngắn của khung chỉ có 10.3 px
+[WARN ] BOX_TINY             img_0161.txt:3  Cạnh ngắn của khung chỉ có 11.4 px
+[WARN ] BOX_TINY             img_0161.txt:4  Cạnh ngắn của khung chỉ có 11.9 px
+[WARN ] BOX_TINY             img_0183.txt:11  Cạnh ngắn của khung chỉ có 11.8 px
+[WARN ] EMPTY_LABEL          img_0097  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0129  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] EMPTY_LABEL          img_0192  file nhãn rỗng: ảnh nền hay thiếu nhãn?
+[WARN ] POSSIBLE_FALSE_POS   img_0014.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0022.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0035.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0068.txt:8  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0069.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0075.txt:6  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0091.txt:7  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0093.txt:3  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0095.txt:6  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0111.txt:2  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0124.txt:8  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0131.txt:11  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0134.txt:5  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0149.txt:3  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0150.txt:3  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0180.txt:5  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0189.txt:4  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0191.txt:1  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0206.txt:1  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_FALSE_POS   img_0212.txt:4  Khung nhãn có thể là khung thừa
+[WARN ] POSSIBLE_LOOSE_BOX   img_0015  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0018  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0036  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0045  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0046  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0054  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0058  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0064  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0077  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0082  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0090  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0099  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0119  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0125  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0142  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0175  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0200  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_LOOSE_BOX   img_0212  Khung nhãn cùng lớp có thể bị lệch hoặc quá rộng
+[WARN ] POSSIBLE_MISSING     img_0032  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0062  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0121  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0126  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0127  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0127  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0135  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0159  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0160  Có thể thiếu khung cho lớp 2
+[WARN ] POSSIBLE_MISSING     img_0183  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0199  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_MISSING     img_0220  Có thể thiếu khung cho lớp 1
+[WARN ] POSSIBLE_WRONG_CLASS img_0078  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0
+[WARN ] POSSIBLE_WRONG_CLASS img_0083  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0
+[WARN ] POSSIBLE_WRONG_CLASS img_0220  Khung có thể bị gán nhầm lớp; mô hình dự đoán lớp 0
+
+## Tổng hợp theo mã
+warn  BOX_HUGE               3
+warn  BOX_TINY               7
+warn  EMPTY_LABEL            3
+warn  POSSIBLE_FALSE_POS     20
+warn  POSSIBLE_LOOSE_BOX     18
+warn  POSSIBLE_MISSING       12
+warn  POSSIBLE_WRONG_CLASS   3
+
+Kết luận: HOLD — Có 34/193 ảnh còn cảnh báo (17.62%), đạt hoặc vượt ngưỡng 10.00%.
